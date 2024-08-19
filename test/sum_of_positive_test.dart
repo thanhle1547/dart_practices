@@ -17,4 +17,8 @@ void main() {
   test('sum of all of the positives doubles', () {
     expect(calculate([0.0, 3.3, -2.9, -4, 0.7]), 4.0);
   });
+
+  test('sum of empty list', () {
+    expect(calculate([]), 0);
+  });
 }
