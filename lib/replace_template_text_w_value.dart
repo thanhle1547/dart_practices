@@ -29,7 +29,7 @@
 ///
 /// `Thao tác mua hàng của Anh Nguyễn Văn A
 /// không thành công. Vui lòng liên hệ theo số 12345678 để được hỗ trợ
-/// (Nhân viên Trần Thị B.`
+/// (Nhân viên Trần Thị B).`
 
 String replaceWithValue(String template, Map<String, dynamic> json) {
   throw UnimplementedError();

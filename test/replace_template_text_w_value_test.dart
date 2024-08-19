@@ -39,7 +39,7 @@ void main() {
     expect(
       replaceWithValue(
         'Thao tác mua hàng của {{male}} {{user_full_name}} không thành công. '
-        'Vui lòng liên hệ theo số {{phone}} để được hỗ trợ (Nhân viên {{s_name}}).',
+        'Vui lòng liên hệ theo số {{phone}} để được hỗ trợ (Nhân viên {{s_name}}).{{extra_msg}}',
         {
           "user_full_name": "Nguyễn Văn A",
           "phone": "12345678",
